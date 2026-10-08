@@ -28,4 +28,8 @@ Until published on npm, from GitHub:
 npx github:atagulalan/kaijou
 ```
 
-Optional UI: install **kaitui** next to `./kai`, then `./kai tui`.
+Optional UI:
+
+```bash
+npx github:atagulalan/kaitui
+```
