@@ -1,0 +1,27 @@
+{
+  "name": "kaijou",
+  "version": "0.1.0",
+  "description": "npx installer/runner for kai (markdown kanban CLI) — auto-inits .kai/ when missing",
+  "bin": {
+    "kaijou": "bin/kaijou.js"
+  },
+  "files": [
+    "bin",
+    "vendor"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atagulalan/kaijou.git"
+  },
+  "keywords": [
+    "kai",
+    "kanban",
+    "markdown",
+    "cli"
+  ],
+  "license": "MIT",
+  "preferGlobal": false
+}
