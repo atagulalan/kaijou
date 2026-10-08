@@ -8,9 +8,10 @@ npx kaijou
 
 What it does:
 
-1. Ensures `./kai` exists in the current directory (copies the bundled CLI)
-2. If `.kai/config` is missing → runs `./kai init` (default prefix `Kai`)
-3. Otherwise forwards args to `./kai` (no args → `./kai list`)
+1. Ensures `./kai` exists (copies the bundled CLI)
+2. Installs the **agent skill** for Codex (`.agents/skills/kai`), Claude (`.claude/skills/kai`), and Cursor (`.cursor/skills/kai`)
+3. If `.kai/config` is missing → runs `./kai init` (default prefix `Kai`)
+4. Otherwise forwards args to `./kai` (no args → `./kai list`)
 
 Examples:
 

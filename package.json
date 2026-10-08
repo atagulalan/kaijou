@@ -1,6 +1,6 @@
 {
   "name": "kaijou",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "npx installer/runner for kai (markdown kanban CLI) — auto-inits .kai/ when missing",
   "bin": {
     "kaijou": "bin/kaijou.js"

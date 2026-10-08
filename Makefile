@@ -4,7 +4,7 @@
 sync-vendor:
 	cp ../kai/kai vendor/kai
 	chmod +x vendor/kai
-	cp ../kai/.cursor/skills/kai/SKILL.md vendor/skill/SKILL.md
+	cp ../kai/.agents/skills/kai/SKILL.md vendor/skill/SKILL.md
 
 smoke:
 	@tmpdir=$$(mktemp -d); \
