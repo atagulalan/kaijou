@@ -1,9 +1,8 @@
 # kaijou
 
-`npx` runner for **[kai](https://github.com/atagulalan/kai)** — markdown kanban CLI.
+`npx` runner for **kai** — markdown kanban CLI.
 
 ```bash
-# in any project
 npx kaijou
 ```
 
@@ -20,16 +19,8 @@ npx kaijou                 # install ./kai + init if needed
 npx kaijou init MyProj     # init with custom prefix
 npx kaijou add --author user --title "Ship it" --priority 10
 npx kaijou list --all
+npx kaitui                 # optional UI
 ```
 
-Until published on npm, from GitHub:
-
-```bash
-npx github:atagulalan/kaijou
-```
-
-Optional UI:
-
-```bash
-npx github:atagulalan/kaitui
-```
+- npm: https://www.npmjs.com/package/kaijou
+- source: https://github.com/atagulalan/kaijou
